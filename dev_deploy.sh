@@ -1,5 +1,5 @@
 ssh root@178.128.214.106 "
-cd i-host-backend/
+cd restaurant_management_system-backend/
 git pull
 sudo service daphane restart
 sudo service sheduler restart

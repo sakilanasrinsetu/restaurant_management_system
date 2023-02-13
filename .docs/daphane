@@ -6,8 +6,8 @@ After=network.target
 [Service]
 Type=simple
 User=root
-WorkingDirectory=/root/i-host-backend/
-ExecStart=/root/i-host-backend/env/bin/daphne -p 9001  restaurant_management_system.asgi:application
+WorkingDirectory=/root/restaurant_management_system-backend/
+ExecStart=/root/restaurant_management_system-backend/env/bin/daphne -p 9001  restaurant_management_system.asgi:application
 #edit myproject
 #If your daphne is not installed globally and is inside your #environment, enter the complete path to daphne
 #ExecStart=/home/ubuntu/myproject/env/bin/daphne -p 9001     

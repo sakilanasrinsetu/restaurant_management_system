@@ -710,7 +710,7 @@ class UserAccountManagerViewSet(LoggingMixin, viewsets.ModelViewSet):
         otp_qs.otp_code = otp
         otp_qs.save()
         sms_res = send_sms(
-            body=f'Your OTP code for I-HOST is {otp} . Thanks for using I-HOST.', phone=str(phone)
+            body=f'Your OTP code for restaurant_management_system is {otp} . Thanks for using restaurant_management_system.', phone=str(phone)
         )
         if not sms_res == None and sms_res.json()["status_code"] == 200:
             return ResponseWrapper(

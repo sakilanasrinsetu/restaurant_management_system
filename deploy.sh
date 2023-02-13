@@ -1,6 +1,6 @@
 #!/bin/bash
 ssh root@178.128.121.166 "
-cd i-host-backend/
+cd restaurant_management_system-backend/
 git pull
 sudo service daphane restart
 sudo service sheduler restart
@@ -9,7 +9,7 @@ exit
 "
 
 ssh root@178.128.214.106 "
-cd i-host-backend/
+cd restaurant_management_system-backend/
 git pull
 sudo service daphane restart
 sudo service sheduler restart
@@ -19,7 +19,7 @@ exit
 
 # momos cafe
 ssh root@139.59.114.34 "
-cd i-host-backend/
+cd restaurant_management_system-backend/
 git pull
 sudo service daphane restart
 sudo service sheduler restart
