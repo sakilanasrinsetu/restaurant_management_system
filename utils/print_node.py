@@ -4,7 +4,7 @@ from restaurant.models import *
 
 
 def print_node(pdf_obj, **kwargs):
-    # data = {"title": "My Test PrintJob", "contentType": "pdf_uri", "content": "https://ihost-space.sgp1.digitaloceanspaces.com/ihost-space-development/pdfresizer.com-pdf-crop.pdf",
+    # data = {"title": "My Test PrintJob", "contentType": "pdf_uri", "content": "https://restaurant_management_system-space.sgp1.digitaloceanspaces.com/restaurant_management_system-space-development/pdfresizer.com-pdf-crop.pdf",
     #         "source": "test documentation!", "options": {'fit_to_page': True}, 'printer': 69976050}
     try:
         print_node_qs = PrintNode.objects.filter(

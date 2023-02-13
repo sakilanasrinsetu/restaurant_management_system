@@ -1,5 +1,5 @@
 """
-ASGI config for ihost project.
+ASGI config for restaurant_management_system project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,7 +11,7 @@ import os
 from django.core.asgi import get_asgi_application
 
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ihost.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'restaurant_management_system.settings')
 django_asgi_app = get_asgi_application()
 
 

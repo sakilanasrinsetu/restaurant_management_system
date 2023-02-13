@@ -3,6 +3,6 @@ cd i-host-backend/
 git pull
 sudo service daphane restart
 sudo service sheduler restart
-echo "sheduler and daphane restarted on ihost dev"
+echo "sheduler and daphane restarted on restaurant_management_system dev"
 exit
 "

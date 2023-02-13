@@ -5,7 +5,7 @@ from django.db.models import JSONField
 from softdelete.models import SoftDeleteModel
 import restaurant
 from django.contrib.auth.base_user import BaseUserManager
-from ihost.settings import TIME_ZONE
+from restaurant_management_system.settings import TIME_ZONE
 from django.db import models
 from django.contrib.auth.models import AbstractUser, User, UserManager
 import uuid
